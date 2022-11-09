@@ -22,9 +22,7 @@
         width:65%;
         padding: 10%;
     }
-    .container:hover{
-        transform: none;
-    }
+    
 }
 h1{
     font-family: arial;
