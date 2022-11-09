@@ -48,6 +48,12 @@ p{
     transition: 1s;
     margin: 10px;
 }
+@media screen and (max-width: 650px){
+    .h1{
+        font-size: 2rem;
+    }
+    
+}
 .btn:hover{
     background: gold;
     color: black;
