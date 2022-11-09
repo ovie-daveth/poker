@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Poker || Game App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Poker Black Jack</h1>
+        <p id="bet">How much are you betting 
+            <span id="low" onclick="low()">$10</span>
+            <span id="medium" onclick="medium()"> $20</span>
+            <span id="high" onclick="high()"> $30</span>
+        </p>
+        <h3 class="message" id="message">Draw a new card to start a game</h3>
+        <p id="card"></p>
+        <p id="sum"></p>
+        <button class="btn" id="start" onclick="playGame()">START GAME</button>
+        <button class="btn" id="new" onclick="newCard()">NEW CARD</button>
+        <a href="index.html"><button class="btn" id="refresh" >START AGAIN</button></a>
+        <p id="player-el"></p>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
