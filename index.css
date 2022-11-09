@@ -11,7 +11,7 @@
     background-image: url('table.png');
     background-size:cover;
     padding: 10%;
-    transition: 1s;
+    transition: .5s;
    
 }
 .container:hover{
@@ -45,7 +45,7 @@ p{
     color: white;
     padding: 0.5em 0.8em;
     border: none;
-    transition: 1s;
+    transition: .5s;
     margin: 10px;
 }
 @media screen and (max-width: 650px){
