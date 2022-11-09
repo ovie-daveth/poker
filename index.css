@@ -20,7 +20,7 @@
 @media screen and (max-width: 650px){
     .container{
         width:65%;
-        padding: 25%;
+        padding: 10%;
     }
     .container:hover{
         transform: none;
